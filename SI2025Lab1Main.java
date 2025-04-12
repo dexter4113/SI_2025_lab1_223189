@@ -104,6 +104,8 @@ tasks.stream().sorted(Comparator.comparing(Task::getPriority).reversed()).forEac
 
     // 8. Mark a task as completed by name
     public void markTaskCompleted(String name) {
+tasks.stream().filter(t -> t.getName().equals(name)).findFirst().ifPresent(Task::complete);
+
         // TODO: Implement completion logic
     }
 
