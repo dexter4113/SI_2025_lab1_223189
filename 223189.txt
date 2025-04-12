@@ -1,0 +1,42 @@
+13.
+
+git fetch origin
+git checkout 2-find-all-completed-tasks
+
+git fetch origin
+git checkout 4-sort-tasks-by-priority
+
+git fetch origin
+git checkout 8-mark-a-task-as-completed-by-name
+
+14.
+git checkout 2-find-all-completed-tasks
+
+15.
+return tasks.stream().filter(Task::isCompleted).collect(Collectors.toList());
+
+16.
+git commit -m "implement getCompletedTasks"
+
+17.
+git push origin 2-find-all-completed-tasks
+
+19. 
+git commit -m "implement sortTasksByPriority"
+git push origin 4-sort-tasks-by-priority
+git commit -m "implement MarkTaskCompleted"
+git push origin 8-mark-a-task-as-completed-by-name
+
+22.
+git checkout master
+
+23.
+git pull origin master
+
+24.
+git merge 2-find-all-completed-tasks
+git push origin master
+
+
+
+

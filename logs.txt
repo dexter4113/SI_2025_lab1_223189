@@ -1,0 +1,21 @@
+*   a3f02b4 (HEAD -> master, origin/master, origin/HEAD) Merge branch '2-find-all-completed-ta
+sks'
+|\
+| * c324919 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) implement getCompl
+etedTasks
+* |   e03c7ee Merge pull request #12 from dexter4113/8-mark-a-task-as-completed-by-name
+|\ \
+| * | bc023ac (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name)
+implement MarkTaskCompleted
+| |/
+* |   c3294b4 Merge pull request #11 from dexter4113/4-sort-tasks-by-priority
+|\ \
+| |/
+|/|
+| * 64923aa (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) implement sortTasksByP
+riority
+|/
+| * 271569b (origin/6-find-the-highest-priority-unfinished-task) Implement GetMostUrgentTasks
+|/
+* 458a358 Add starter code
+* 49184ed Initial commit
